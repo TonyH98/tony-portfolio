@@ -1,0 +1,21 @@
+@media (min-width: 993px){
+
+    .nav-section{
+        border-bottom: black solid 2px;
+        display: grid;
+        grid-template-columns: 10% 100%;
+        grid-column-gap: 62%;
+        height: 45px;
+        margin-top: 20px;
+    }
+
+    .sections{
+        display: grid;
+        grid-template-columns: 18% 8%
+    }
+
+
+    a{
+        color: black;
+    }
+}
