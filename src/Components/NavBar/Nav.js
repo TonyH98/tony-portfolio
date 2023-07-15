@@ -5,8 +5,10 @@ import './Nav.css'
 function Nav(){
 
 return(
-    <div className="nav-section">
+    <nav className="nav-section">
 
+        <div className="nav-container">
+            
         <div>
         <Link to="/">
         <div className="my-name">
@@ -31,7 +33,9 @@ return(
         
         </Link>
         </div>
-    </div>
+
+        </div>
+    </nav>
 )
 
 }

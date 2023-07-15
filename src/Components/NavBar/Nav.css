@@ -1,17 +1,26 @@
 @media (min-width: 993px){
 
     .nav-section{
-        
         display: grid;
         grid-template-columns: 10% 100%;
         grid-column-gap: 62%;
-        height: 45px;
+        height: 80px;
+        background-color: linear;
+        background: linear-gradient(to right, rgb(228, 230, 230), white);
+        color: #fff; 
+    }
+
+    .nav-container{
+        display: grid;
         margin-top: 20px;
+        grid-template-columns: 150% 800%;
+        grid-column-gap: 650%
+
     }
 
     .sections{
         display: grid;
-        grid-template-columns: 18% 8%
+        grid-template-columns: 15% 7%
     }
 
 
@@ -23,4 +32,4 @@
         font-size: 24px;
         margin-left: 10px;
     }
-}
+ } 

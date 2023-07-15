@@ -3,11 +3,18 @@ import "./Project.css"
 
 function Projects(){
 
+const frontend1 = ["Javascript", "React.js", "HTLM", "CSS", "Tailwind"]
+const backend1 = ["Node.js", "SQL", "PostgreSQL", "Express.js"]
+const other1 = ["Socket.io", "Google Maps", "Firebase"]
 
+
+const frontend2 = ["Javascript", "React.js", "HTLM", "CSS"]
+
+const other2 = ["Stripe API"]
 
 return(
 
-    <div>
+    <div className="project-page">
 
         <div>
             <h1 className="header">Projects</h1>
@@ -15,11 +22,20 @@ return(
 
      
 
-            <div className="Kick_It">
-                <h2>1. Kick.It</h2>
+            <div className="project-lists">
+            <div className="project-link-image">
+
+             <img src="/kickit.png" alt="kickit" className="project-images"/>
+
+                <br/>
+             <a className="project-links" href="https://kick-it-v1.netlify.app/" target="_blank">Kick.It</a>
+            </div>
+
+
 
                 <div className="project-container">
-                    
+                <h2 className="project-header">1. Kick.It</h2>
+
                 <p className="project-descript">
                 Kick.it is our collaborative event hosting app, developed as a group project where I led the backend development.
 
@@ -29,26 +45,64 @@ return(
                    showcasing my ability to deliver engaging and feature-rich applications. 
                    <br/>
                    <br/>
-                   Front-End Tools: Javascript, React.js, HTML, CSS, Tailwind
+                   Front-End Tools:
+                   <div className="tools-container">
+                    {frontend1.map((front) => {
+                    return(
+                        <div className="tools" key={front}>
+                            {front}
+                        </div>
+                    )
+                   })}
+
+                   </div>
                    <br/>
-                   Backend-End Tools: Node.js, SQL, PostSql, Express.js
+                   Backend-End Tools: 
+                   <div className="tools-container">
+                   {backend1.map((back) => {
+                    return(
+                        <div className="tools" key={back}>
+                            {back}
+                        </div>
+                    )
+                   })}
+
+                   </div>
+
+                   <br/>
+                   Other Tools:
+                   <div className="tools-container">
+                   {other1.map((other) => {
+                    return(
+                        <div className="tools" key={other}>
+                            {other}
+                        </div>
+                    )
+                   })}
+
+                   </div>
+
                 </p>
-        
+        </div>
 
-            
-             <img src="/kickit.png" width="300" alt="kickit" className="project-images"/>
-
-                <br/>
-             <a className="project-links" href="https://kick-it-v1.netlify.app/" target="_blank">Kick.It</a>
-
-                
             </div>
 
             <br/>
-            <div className="Collection_Vault">
+            <div className="project-lists">
 
-                <h2>2. Collection Vault</h2>
+                    <div className="project-link-image">
 
+                    <img src="/collectionVault.png" width="300" alt="collection" className="project-images"/>
+
+                    <br/>
+
+                    <a className="project-links" href="https://collection-vault.netlify.app/" target="_blank">Collection Vault</a>
+
+                    </div>
+
+                <div className="project-container">
+
+                <h2 className="project-header2">2. Collection Vault</h2>
                     <p className="project-descript">
                     Introducing Collection Vault, my solo-developed e-commerce app designed for 
                     seamless mobile shopping experiences. Built using the PERN stack, 
@@ -63,23 +117,54 @@ return(
 
                         <br/>
                         <br/>
-                        Front-End Tools: Javascript, React.js, HTML, CSS, Tailwind
+                        Front-End Tools: 
+                        <div className="tools-container">
+                   {frontend2.map((front) => {
+                    return(
+                        <div className="tools" key={front}>
+                            {front}
+                        </div>
+                    )
+                   })}
+
+                   </div>
+                        
                         <br/>
-                        Backend-End Tools: Node.js, SQL, PostSql, Express.js
+                        Backend-End Tools: 
+
+                        <div className="tools-container">
+                   {backend1.map((back) => {
+                    return(
+                        <div className="tools" key={back}>
+                            {back}
+                        </div>
+                    )
+                   })}
+
+                   </div>
+
+                   <br/>
+                   Other Tools:
+                   <div className="tools-container">
+                   {other2.map((other) => {
+                    return(
+                        <div className="tools" key={other}>
+                            {other}
+                        </div>
+                    )
+                   })}
+
+                   </div>
                     </p>
 
+                </div>
+
                         <br/>
-                    <img src="/collectionVault.png" width="300" alt="collection" className="project-images"/>
-
-                    <br/>
-
-                    <a className="project-links" href="https://collection-vault.netlify.app/" target="_blank">Collection Vault</a>
 
 
 
             </div>
 
-        </div>
 
     </div>
 

@@ -5,10 +5,13 @@ import Home from './Components/LandingPage/Home';
 import Nav from './Components/NavBar/Nav';
 import Projects from './Components/Projects/Projects';
 import About from './Components/About/About';
+
+
 function App() {
   return (
     <div className="App">
     <Router>
+    
     <Nav/>
       <main>
         <Routes>

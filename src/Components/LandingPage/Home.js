@@ -4,11 +4,9 @@ function Home(){
 
 
 return(
-<div>
+<div className='Home-Page'>
 
-<p>
 
-</p>
 
 </div>
  )
