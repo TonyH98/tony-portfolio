@@ -55,7 +55,7 @@ return(
 </div>
 
 <div className='contact-message'>
-I am always looking for new oppurtunities don't hestitate to reach out!
+I am always looking for new opportunities, so don't hesitate to reach out!
 </div>
 
 <div class="container">
