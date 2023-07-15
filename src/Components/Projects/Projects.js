@@ -18,7 +18,7 @@ return(
     <div className="project-page">
 
         <div>
-            <h1 className="header">Projects</h1>
+            <h1 className="header">Personal Projects</h1>
         </div>
 
     
