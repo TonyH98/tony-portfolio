@@ -70,9 +70,10 @@
   border: blue 1px solid;
   background-color: blue;
   color: white;
-  font-size: 15.5px;
+  font-size: 14px;
   height: 36px;
   padding-top: 8px;
+  font-weight: bold;
 }
 
 

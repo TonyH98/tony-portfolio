@@ -60,16 +60,16 @@ I am always looking for new opportunities, so don't hesitate to reach out!
 
 <div class="container">
   <form ref={form} onSubmit={sendEmail} className="contact-form">
-    <label className="contact-label" htmlFor="user_name">Name</label>
+    <label className="contact-label" htmlFor="user_name">Name:</label>
     <input className="contact-input" type="text" name="user_name" required />
     <br/>
-    <label className="contact-label" htmlFor="email">Email</label>
+    <label className="contact-label" htmlFor="email">Email:</label>
     <input className="contact-input" type="email" name="user_email" required />
     <br/>
-    <label className="contact-label" htmlFor="subject">Subject</label>
+    <label className="contact-label" htmlFor="subject">Subject:</label>
     <input className="contact-input" type="text" name="subject" required />
     <br/>
-    <label className="contact-label" htmlFor="message">Message</label>
+    <label className="contact-label" htmlFor="message">Message:</label>
     <textarea className="contact-input" name="message" required></textarea>
     <br/>
     <br/>
