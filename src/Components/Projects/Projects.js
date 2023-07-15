@@ -1,5 +1,6 @@
 import "./Project.css"
 
+import {BsGithub} from  "react-icons/bs"
 
 function Projects(){
 
@@ -20,7 +21,7 @@ return(
             <h1 className="header">Projects</h1>
         </div>
 
-     
+    
 
             <div className="project-lists">
             <div className="project-link-image">
@@ -29,6 +30,11 @@ return(
 
                 <br/>
              <a className="project-links" href="https://kick-it-v1.netlify.app/" target="_blank">Kick.It</a>
+             <br/>
+            <br/>
+             <a className="project-links" href="https://github.com/TonyH98/capstone-project-frontend" target="_blank"><BsGithub size="30px"/></a>
+             
+
             </div>
 
 
@@ -45,7 +51,7 @@ return(
                    showcasing my ability to deliver engaging and feature-rich applications. 
                    <br/>
                    <br/>
-                   Front-End Tools:
+                   <span style={{"fontWeight": "bold"}}>Front-End Tools:</span>
                    <div className="tools-container">
                     {frontend1.map((front) => {
                     return(
@@ -57,7 +63,7 @@ return(
 
                    </div>
                    <br/>
-                   Backend-End Tools: 
+                   <span style={{"fontWeight": "bold"}}>Back-End Tools:</span>
                    <div className="tools-container">
                    {backend1.map((back) => {
                     return(
@@ -70,7 +76,7 @@ return(
                    </div>
 
                    <br/>
-                   Other Tools:
+                   <span style={{"fontWeight": "bold"}}>Other Tools:</span>
                    <div className="tools-container">
                    {other1.map((other) => {
                     return(
@@ -98,6 +104,10 @@ return(
 
                     <a className="project-links" href="https://collection-vault.netlify.app/" target="_blank">Collection Vault</a>
 
+                    <br/>
+            <br/>
+             <a className="project-links" href="https://github.com/TonyH98/e-commerce-frontend" target="_blank"><BsGithub size="30px"/></a>
+
                     </div>
 
                 <div className="project-container">
@@ -117,7 +127,7 @@ return(
 
                         <br/>
                         <br/>
-                        Front-End Tools: 
+                        <span style={{"fontWeight": "bold"}}>Front-End Tools:</span>
                         <div className="tools-container">
                    {frontend2.map((front) => {
                     return(
@@ -130,7 +140,7 @@ return(
                    </div>
                         
                         <br/>
-                        Backend-End Tools: 
+                        <span style={{"fontWeight": "bold"}}>Back-End Tools:</span>
 
                         <div className="tools-container">
                    {backend1.map((back) => {
@@ -144,7 +154,7 @@ return(
                    </div>
 
                    <br/>
-                   Other Tools:
+                   <span style={{"fontWeight": "bold"}}>Other Tools:</span>
                    <div className="tools-container">
                    {other2.map((other) => {
                     return(
