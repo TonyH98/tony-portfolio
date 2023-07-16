@@ -28,16 +28,16 @@ return(
 <div className='Home-Page'>
 
 <div className='social-media-icons'>
-    <br></br>
+
+    <div className='social-container'>
+
     <a href='https://github.com/TonyH98' target="_blank"><BsGithub size="30px"/></a>
-    <br/>
-    <br/>
+   
+   
     <a href='https://www.linkedin.com/in/tony-hoang-3a4907182/' target="_blank"><BsLinkedin size="30px"/></a>
 
-    <br></br>
-    <br/> 
-
     <a href="/Resume.pdf" target="_blank"><BsFiletypeDoc size="30px"/></a>
+    </div>
 
 </div>
 
