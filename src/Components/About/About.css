@@ -49,7 +49,7 @@
   .About{
     background-color: linear;
     background: linear-gradient(to right, rgb(228, 230, 230), white);
-    height: 100vh;
+    height: 180vh;
     border: solid 1px azure;
   }
 
@@ -96,7 +96,7 @@
   .About{
     background-color: linear;
     background: linear-gradient(to right, rgb(228, 230, 230), white);
-    height: 100vh;
+    height: 180vh;
     border: solid 1px azure;
   }
 
