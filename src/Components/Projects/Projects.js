@@ -24,7 +24,7 @@ return(
     
 
             <div className="project-lists">
-            <div className="project-link-image">
+            <div className="project-link-image kickit-image">
 
              <img src="/kickit.png" alt="kickit" className="project-images"/>
 
@@ -92,8 +92,10 @@ return(
         </div>
 
             </div>
-
+            
             <br/>
+            <br/>
+           <br/>
             <div className="project-lists">
 
                     <div className="project-link-image">
