@@ -1,0 +1,47 @@
+@media (min-width: 993px){
+
+  .About{
+    background-color: linear;
+    background: linear-gradient(to right, rgb(228, 230, 230), white);
+    height: 100vh;
+    border: solid 1px azure;
+  }
+
+    .profile-picture{
+        width: 230px;
+        height: 200px;
+    }
+
+      .bio-container {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.6;
+        padding: 30px;
+        border: solid 1px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        position: relative;
+        right: 30px;
+        border: black solid 1px;
+      }
+
+
+    .About-Section{
+        position: relative;
+        top: 50px;
+        display: grid;
+        grid-template-columns: 40% 60%;
+
+    }
+
+    .some-links{
+      display: grid;
+      grid-template-columns: repeat(3, 50px);
+ 
+
+    }
+    
+}
+    
+    
