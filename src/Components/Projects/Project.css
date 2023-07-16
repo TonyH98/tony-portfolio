@@ -145,7 +145,12 @@
     top: 1000px;
   }
   
+  .project-page{
+    background-color: linear;
+    background: linear-gradient(to right, rgb(228, 230, 230), white);
+    border: solid 1px azure
   
+  }
 
 
 }
@@ -214,6 +219,13 @@ top: 1050px
   top: 1000px;
 }
 
+
+.project-page{
+  background-color: linear;
+  background: linear-gradient(to right, rgb(228, 230, 230), white);
+  border: solid 1px azure
+
+}
 
 }
 

@@ -24,6 +24,7 @@ return(
             <img src="/profile.jpeg" alt="profile" className="profile-picture"></img>
         </div>
 
+      
         <div className="bio-container">
 
         <div>
