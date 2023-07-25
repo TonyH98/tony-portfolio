@@ -29,7 +29,7 @@ return(
 
 <div className='social-media-icons'>
 
-    <div className='social-container'>
+    
 
     <a href='https://github.com/TonyH98' target="_blank"><BsGithub size="30px"/></a>
    
@@ -37,7 +37,7 @@ return(
     <a href='https://www.linkedin.com/in/tony-hoang-3a4907182/' target="_blank"><BsLinkedin size="30px"/></a>
 
     <a href="/Resume.pdf" target="_blank"><BsFiletypeDoc size="30px"/></a>
-    </div>
+
 
 </div>
 
@@ -52,30 +52,37 @@ return(
   <span> where I create dynamic and innovative web applications</span> 
   <span> to bring ideas to life.</span>
 </p>
+
+
 </div>
 
-<div className='contact-message'>
-I am always looking for new opportunities, so don't hesitate to reach out!
-</div>
-
-<div class="container">
   <form ref={form} onSubmit={sendEmail} className="contact-form">
-    <label className="contact-label" htmlFor="user_name">Name:</label>
+<p className='contact-message'>
+I am always looking for new opportunities, so don't hesitate to reach out!
+</p>
+
+    <label className="contact-label" htmlFor="user_name">Name:
     <input className="contact-input" type="text" name="user_name" required />
-    <br/>
-    <label className="contact-label" htmlFor="email">Email:</label>
+    </label>
+
+    <label className="contact-label" htmlFor="email">Email:
     <input className="contact-input" type="email" name="user_email" required />
-    <br/>
-    <label className="contact-label" htmlFor="subject">Subject:</label>
+    </label>
+
+    <label className="contact-label" htmlFor="subject">Subject:
     <input className="contact-input" type="text" name="subject" required />
-    <br/>
-    <label className="contact-label" htmlFor="message">Message:</label>
+    </label>
+
+    <label className="contact-label" htmlFor="message">Message:
     <textarea className="contact-input" name="message" required></textarea>
-    <br/>
-    <br/>
+    </label>
+ 
+    <div className='button-container'>
+
     <button className="contact-button" type="submit">Send Message</button>
+    </div>
   </form>
-</div>
+
 </div>
 
 

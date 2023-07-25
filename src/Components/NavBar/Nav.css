@@ -1,43 +1,35 @@
 @media (min-width: 993px){
+  .nav-section {
+    height: 80px;
+    background-color: linear;
+    background: linear-gradient(to right, rgb(228, 230, 230), white);
+    color: #fff;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100%; 
+    padding: 0 20px; 
+  }
+  
+  .sections {
+    display: flex;
+    gap: 40px;
+  }
 
-    .nav-section{
-        display: grid;
-        grid-template-columns: 10% 100%;
-        grid-column-gap: 62%;
-        height: 80px;
-        background-color: linear;
-        background: linear-gradient(to right, rgb(228, 230, 230), white);
-        color: #fff; 
-    }
+  a{
+    color: black;
+    text-decoration: none;
+  }
 
-    .nav-container{
-        display: grid;
-        margin-top: 20px;
-        grid-template-columns: 150% 800%;
-        grid-column-gap: 650%
-
-    }
-
-    .sections{
-        display: grid;
-        grid-template-columns: 15% 7%
-    }
-
-
-    a{
-        color: black;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    .my-name{
-        font-size: 24px;
-        margin-left: 10px;
-    }
-
-    a:hover{
-        color: rgb(60, 60, 199);
-    }
+  .my-name{
+    font-size: 25px;
+    font-weight: bold;
+  }
+    
+    
  } 
 
 
@@ -47,43 +39,35 @@
 
  @media (min-width: 320px) and (max-width: 576px) {
   .nav-section {
-    display: flex;
-    align-items: center;
     height: 80px;
     background-color: linear;
     background: linear-gradient(to right, rgb(228, 230, 230), white);
     color: #fff;
   }
-
+  
   .nav-container {
     display: flex;
-    margin-top: 20px;
+    justify-content: space-between; 
     align-items: center;
-    justify-content: space-between;
+    height: 100%; 
+    padding: 0 20px; 
   }
-
+  
   .sections {
     display: flex;
-    align-items: center;
-    grid-column-gap: 20px;
+    gap: 40px;
   }
 
-  a {
+  a{
     color: black;
     text-decoration: none;
+  }
+
+  .my-name{
+    font-size: 25px;
     font-weight: bold;
   }
-
-  .my-name {
-    font-size: 24px;
-    margin-left: 10px;
-    margin-right: 130px;
- 
-  }
-
-  a:hover {
-    color: rgb(60, 60, 199);
-  }
+    
 }
 
   
@@ -91,87 +75,70 @@
 
  @media (min-width: 577px) and (max-width: 768px){
 
-    .nav-section{
-        display: grid;
-        grid-template-columns: 18% 60%;
-        /* grid-column-gap: 30px; */
-        height: 80px;
-        background-color: linear;
-        background: linear-gradient(to right, rgb(228, 230, 230), white);
-        color: #fff; 
-    }
+  .nav-section {
+    height: 80px;
+    background-color: linear;
+    background: linear-gradient(to right, rgb(228, 230, 230), white);
+    color: #fff;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100%; 
+    padding: 0 20px; 
+  }
+  
+  .sections {
+    display: flex;
+    gap: 40px;
+  }
 
-    .nav-container{
-        display: grid;
-        margin-top: 20px;
-        grid-template-columns: 150% 300%;
-        grid-column-gap: 220%
+  a{
+    color: black;
+    text-decoration: none;
+  }
 
-    }
-
-    .sections{
-        display: grid;
-        grid-template-columns: 15% 50%
-    }
-
-
-    a{
-        color: black;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    .my-name{
-        font-size: 24px;
-        margin-left: 10px;
-    }
-
-    a:hover{
-        color: rgb(60, 60, 199);
-    }
+  .my-name{
+    font-size: 25px;
+    font-weight: bold;
+  }
 
 
 
  }
  @media (min-width: 769px) and (max-width: 992px){
 
-   .nav-section{
-    display: grid;
-    grid-template-columns: 10% 100%;
-    grid-column-gap: 62%;
+  .nav-section {
     height: 80px;
     background-color: linear;
     background: linear-gradient(to right, rgb(228, 230, 230), white);
-    color: #fff; 
+    color: #fff;
   }
   
-  .nav-container{
-    display: grid;
-    margin-top: 20px;
-    grid-template-columns: 150% 800%;
-    grid-column-gap: 650%
-  
+  .nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100%; 
+    padding: 0 20px; 
   }
   
-  .sections{
-    display: grid;
-    grid-template-columns: 15% 7%
+  .sections {
+    display: flex;
+    gap: 40px;
   }
-  
-  
+
   a{
     color: black;
     text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .my-name{
-    font-size: 24px;
-    margin-left: 10px;
-  }
-  
-  a:hover{
-    color: rgb(60, 60, 199);
   }
 
+  .my-name{
+    font-size: 25px;
+    font-weight: bold;
+  }
+    
+  
  }
