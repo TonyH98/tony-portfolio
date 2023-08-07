@@ -28,17 +28,7 @@ return(
         <div className="bio-container">
 
         <div>
-        Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et 
-        dolore magna aliqua. Ut enim ad minim veniam, 
-        quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat. Duis aute irure dolor
-         in reprehenderit in voluptate velit esse 
-         cillum dolore eu fugiat nulla pariatur. 
-         Excepteur sint occaecat cupidatat non proident, 
-         sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
+        It began as an indefinite leave of absence until it wasn’t. I dropped out of college, not out of negligence, but to save my spiritual and mental health from the social isolation, financial stress, and academic pressures of college. It was difficult to convince my immigrant Asian parents that this was the right choice as they saw me, their youngest son, live at home and take different part-jobs. However, I have taken this pause to productively reflect and heal as well as discover my deep interest in coding. I enjoy building and solving difficult problems through coding and decided to apply to the Pursuit Fellowship. Pursuit is a year-long program funded by notable charitable organizations and companies, like Google and Blackstone, to train high-potential adults who come from non-traditional educational, career, or demographic backgrounds in the tech industry and help them get their first job as software engineers. Through the program, I overcame the self-doubts I once had in college and developed a newfound passion for learning. Although my career journey has been anything but straightforward, I finally feel like I am heading in the right direction. I graduated from the Pursuit Fellowship in June, 2023 and I know I have the skills to succeed in my future role as a software engineer.
         
         <br/>       
         <br></br>

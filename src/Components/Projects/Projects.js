@@ -50,9 +50,8 @@ return(
                   add comments, invite co-hosts, send friend requests, RSVP, and enjoy real-time messaging with Socket.IO.
                    With a focus on seamless event management, Kick.it demonstrates my backend expertise in a team environment, 
                    showcasing my ability to deliver engaging and feature-rich applications. 
-                   <br/>
-                   <br/>
-                   <span style={{"fontWeight": "bold"}}>Front-End Tools:</span>
+                </p>
+                <span style={{"fontWeight": "bold"}}>Front-End Tools:</span>
                    <div className="tools-container">
                     {frontend1.map((front) => {
                     return(
@@ -63,7 +62,7 @@ return(
                    })}
 
                    </div>
-                   <br/>
+                  
                    <span style={{"fontWeight": "bold"}}>Back-End Tools:</span>
                    <div className="tools-container">
                    {backend1.map((back) => {
@@ -88,8 +87,6 @@ return(
                    })}
 
                    </div>
-
-                </p>
         </div>
 
             </div>
@@ -126,9 +123,11 @@ return(
                     Collection Vault is a testament to my skills as a software developer, 
                     combining functionality, usability, and a visually appealing design.
 
-                        <br/>
-                        <br/>
-                        <span style={{"fontWeight": "bold"}}>Front-End Tools:</span>
+                        
+                     
+                    </p>
+
+                    <span style={{"fontWeight": "bold"}}>Front-End Tools:</span>
                         <div className="tools-container">
                    {frontend2.map((front) => {
                     return(
@@ -140,7 +139,7 @@ return(
 
                    </div>
                         
-                        <br/>
+                    
                         <span style={{"fontWeight": "bold"}}>Back-End Tools:</span>
 
                         <div className="tools-container">
@@ -154,7 +153,7 @@ return(
 
                    </div>
 
-                   <br/>
+                
                    <span style={{"fontWeight": "bold"}}>Other Tools:</span>
                    <div className="tools-container">
                    {other2.map((other) => {
@@ -166,14 +165,11 @@ return(
                    })}
 
                    </div>
-                    </p>
+
 
                 </div>
 
-                        <br/>
-
-
-
+                
             </div>
 
     </div>
