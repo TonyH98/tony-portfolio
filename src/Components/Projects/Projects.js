@@ -15,7 +15,7 @@ const other2 = ["Stripe API"]
 
 return(
 
-    <div className="project-page">
+    <div className="project-page" id="projects">
 
         <div>
             <h1 className="header">Personal Projects</h1>

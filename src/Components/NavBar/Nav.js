@@ -10,28 +10,22 @@ return(
         <div className="nav-container">
             
         <div>
-        <Link to="/">
+        
         <div className="my-name">
-            Tony Hoang
+        <p><a href="#Home">Tony Hoang</a></p>
         </div>
-        </Link>
+     
 
         </div>
 
         <div className="sections">
         
-        <Link to="/projects">
-        <div>
-            Projects
-        </div>
-        </Link>
-
-        <Link to="/About">
-        <div>
-            About Me
-        </div>
+      
         
-        </Link>
+    <p><a href="#projects">Projects</a></p>
+
+    <p><a href="#contact">Contact</a></p>
+    
         </div>
 
         </div>

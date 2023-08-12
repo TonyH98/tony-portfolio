@@ -4,7 +4,16 @@
     background-color: linear;
     background: linear-gradient(to right, rgb(228, 230, 230), white);
     color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
   }
+
+
+
+  
   
   .nav-container {
     display: flex;
