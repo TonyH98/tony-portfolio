@@ -26,7 +26,10 @@ return(
              and gathers feedback for event success. Elevate your events with Kickit today.
         </p>
     </div>
+    <a href="https://github.com/TonyH98/e-commerce-frontend" target="_blank">
         <button className="button-link">Github</button>
+
+    </a>
         </div>
 
 
@@ -40,7 +43,10 @@ return(
             seamless and personalized shopping experience for book and comic enthusiasts.
         </p>
     </div>
+    <a href="https://github.com/TonyH98/capstone-project-frontend" target="_blank">
         <button className="button-link">Github</button>
+
+    </a>
 </div>
 
     </div>
