@@ -3,25 +3,35 @@ import { useRef } from 'react';
 import {BsGithub} from  "react-icons/bs"
 import {BsLinkedin} from  "react-icons/bs"
 import { BsFiletypeDoc } from 'react-icons/bs'
+import { useState } from 'react';
 import "./Contact.css"
 
 function Contact(){
 
+  const [messageStatus, setMessageStatus] = useState(null); 
 
     const form = useRef();
 
     const sendEmail = (e) => {
       e.preventDefault();
-  
-      emailjs.sendForm('service_9mvsfuj', 'template_6qrh90m', form.current, '27wejsS_ngyWquXcw')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
 
-        e.target.reset()
-    };
+      let isValid = true;
+
+      emailjs
+          .sendForm('service_9mvsfuj', 'template_6qrh90m', form.current, '27wejsS_ngyWquXcw')
+          .then(
+              (result) => {
+                  console.log(result.text);
+                  setMessageStatus('Message Sent'); 
+              },
+              (error) => {
+                  console.log(error.text);
+                  setMessageStatus('Message Failed'); 
+              }
+          );
+
+      e.target.reset();
+  };
 
 
 
@@ -30,6 +40,7 @@ return(
 <div id="contact">
 
 <h1>Contact Me</h1>
+{messageStatus && <p style={{"color": "green"}}>{messageStatus}</p>}
  <form ref={form} onSubmit={sendEmail} className="contact-form">
 
     <label className="contact-label" htmlFor="user_name">Name:
