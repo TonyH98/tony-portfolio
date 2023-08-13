@@ -24,7 +24,11 @@ return(
         
     <p><a href="#projects">Projects</a></p>
 
+    <p><a href="#skills">Skills</a></p>
+
     <p><a href="#contact">Contact</a></p>
+
+
     
         </div>
 
