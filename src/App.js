@@ -13,14 +13,14 @@ function App() {
    
     
     <Nav/>
-      <main>     
+      
    <Home/>
 
   <Projects/>
 
   <Contact/>
   
-      </main>
+
   
   </div>
   );

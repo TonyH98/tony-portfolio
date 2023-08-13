@@ -35,11 +35,18 @@ return(
     <h2 className='title'>A Full-Stack Developer</h2>
     <p className='about-me'>
     I am a skilled full-stack developer proficient in crafting dynamic web applications. With a passion for innovative 
-    solutions, I am actively seeking opportunities to contribute my expertise and collaborate on exciting projects.
+    solutions,
+    <br/> 
+    I am actively seeking opportunities to contribute my expertise and collaborate on exciting projects.
     </p>
 
-    <p>When not immersed in the world of technology, I actively pursue my hobbies, maintaining an active running routine and 
+    <p className='about-me'>When not immersed in the world of technology,
+         I actively pursue my hobbies, maintaining an active running routine 
+         <br/>
+         and 
       staying engrossed in the captivating narratives of Image Comic Books and manga.</p>
+</div>
+
 </div>
 
 
@@ -47,10 +54,6 @@ return(
 
 <img src="/profile.jpeg" alt="profile" className="profile-picture"></img>
 </div>
-
-</div>
-
-
 
 </div>
  )

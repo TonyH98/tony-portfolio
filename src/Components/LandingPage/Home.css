@@ -1,6 +1,9 @@
-.home-container{
-
+.Home-Page{
+display: flex;
+ flex-direction: row;
     margin-top: 100px;
+    gap: 100px;
+    justify-content: center;
      
 }
 
@@ -9,6 +12,36 @@
     height: 200px;
     border-radius: 50%;
 }
+
+
+.introduction-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.about-me {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about-me:first-child {
+    margin-top: 0;
+}
+
+.about-me:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
 
 @media (min-width: 993px){
 
