@@ -1,16 +1,16 @@
+.nav-section {
+  height: 80px;
+  background-color: linear;
+  background: linear-gradient(to right, rgb(228, 230, 230), white);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: black solid 1px;
+}
 @media (min-width: 993px){
-  .nav-section {
-    height: 80px;
-    background-color: linear;
-    background: linear-gradient(to right, rgb(228, 230, 230), white);
-    color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    border-bottom: black solid 1px;
-  }
 
 
 
@@ -48,12 +48,7 @@
 
 
  @media (min-width: 320px) and (max-width: 576px) {
-  .nav-section {
-    height: 80px;
-    background-color: linear;
-    background: linear-gradient(to right, rgb(228, 230, 230), white);
-    color: #fff;
-  }
+ 
   
   .nav-container {
     display: flex;
@@ -65,7 +60,8 @@
   
   .sections {
     display: flex;
-    gap: 40px;
+    gap: 30px;
+    margin-right: 10px;
   }
 
   a{

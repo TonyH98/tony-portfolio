@@ -1,25 +1,7 @@
 import './Home.css'
-import {BsGithub} from  "react-icons/bs"
-import {BsLinkedin} from  "react-icons/bs"
-import { BsFiletypeDoc } from 'react-icons/bs'
-import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
 function Home(){
 
-    const form = useRef();
-
-    const sendEmail = (e) => {
-      e.preventDefault();
   
-      emailjs.sendForm('service_9mvsfuj', 'template_6qrh90m', form.current, '27wejsS_ngyWquXcw')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-
-        e.target.reset()
-    };
 
 
 

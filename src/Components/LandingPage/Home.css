@@ -1,11 +1,5 @@
-.Home-Page{
-display: flex;
- flex-direction: row;
-    margin-top: 100px;
-    gap: 100px;
-    justify-content: center;
-     
-}
+
+
 
 .profile-picture{
     width: 200px;
@@ -15,13 +9,13 @@ display: flex;
 }
 
 
+
 .introduction-container{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     margin-left: 20px;
 }
-
 
 .about-me {
     font-family: Arial, sans-serif;
@@ -30,23 +24,33 @@ display: flex;
     margin-bottom: 20px;
 }
 
-.about-me:first-child {
-    margin-top: 0;
+.Home-Page{
+    margin-top: 100px;
+    
 }
-
-.about-me:last-child {
-    margin-bottom: 0;
-}
-
-
-
-
-
-
 
 @media (min-width: 993px){
-
-
+    .Home-Page{
+    display: flex;
+     flex-direction: row;
+        gap: 100px;
+        justify-content: center;
+         
+    }
+    
+    
+    
+    
+    
+    .about-me:first-child {
+        margin-top: 0;
+    }
+    
+    .about-me:last-child {
+        margin-bottom: 0;
+    }
+    
+    
  } 
 
 
