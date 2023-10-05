@@ -31,6 +31,11 @@ return(
         <button className="button-link"> Backend Github</button>
 
     </a>
+
+    <a href="https://www.youtube.com/watch?v=m-fOIljrsj4&t=1940s" target="_blank">
+        <button className="button-link">Youtube</button>
+    </a>
+        <span>Go to 32:00</span>
         </div>
 
 
@@ -50,6 +55,10 @@ return(
     </a>
     <a href="https://github.com/TonyH98/e-commerce-backend" target="_blank">
         <button className="button-link">Backend Github</button>
+
+    </a>
+    <a href="https://collection-vault.netlify.app/" target="_blank">
+        <button className="button-link">Live Link</button>
 
     </a>
 </div>
