@@ -16,6 +16,7 @@ import {SiTailwindcss} from "react-icons/si"
 import {BsStripe} from "react-icons/bs"
 import {SiSocketdotio} from "react-icons/si"
 import {SiNpm} from "react-icons/si"
+import {TbBrandRedux} from "react-icons/tb"
 function Skill(){
 
 return(
@@ -68,7 +69,15 @@ return(
       React
       </span>
     </div>
+    <div className="skill-icon">
 
+{<TbBrandRedux size={50}/>}
+<br/>
+<span style={{"fontWeight": "bold"}}>
+
+Redux
+</span>
+</div>
     </div>
 
     </div>

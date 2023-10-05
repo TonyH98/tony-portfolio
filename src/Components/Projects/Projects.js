@@ -20,14 +20,15 @@ return(
         <img src="./kickit.png" alt="kickit" className="project-img"/>
         <div class="project-content">
         <p>
-            Introducing kickit: your all-in-one event solution. 
-            Plan, host, and join events effortlessly. Enjoy real-time attendee messaging for
-            seamless communication. Kickit streamlines registration, tracks attendance,
-             and gathers feedback for event success. Elevate your events with Kickit today.
+        Kickit is a comprehensive event management platform, designed for effortless event planning, hosting, and participation. With real-time attendee messaging, streamlined registration, attendance tracking, and feedback collection, Kickit is your go-to solution for successful events.
         </p>
     </div>
     <a href="https://github.com/TonyH98/e-commerce-frontend" target="_blank">
-        <button className="button-link">Github</button>
+        <button className="button-link">Frontend Github</button>
+
+    </a>
+    <a href="https://github.com/TonyH98/capstone-project-backend" target="_blank">
+        <button className="button-link"> Backend Github</button>
 
     </a>
         </div>
@@ -44,11 +45,33 @@ return(
         </p>
     </div>
     <a href="https://github.com/TonyH98/capstone-project-frontend" target="_blank">
-        <button className="button-link">Github</button>
+        <button className="button-link">Frontend Github</button>
+
+    </a>
+    <a href="https://github.com/TonyH98/e-commerce-backend" target="_blank">
+        <button className="button-link">Backend Github</button>
 
     </a>
 </div>
 
+<div className="project">
+
+<h2>3. Hermes</h2>
+<img src="./SocialMedia.png" alt="SocialMedia" className="project-img"/>
+<div class="project-content">
+<p>
+This project is an emulation of Twitter/X's core functionalities, encompassing user registration, post creation, interactive replies, user following, mentions, notifications, and post tagging. It aims to provide users with a familiar yet feature-rich social media experience, fostering online connections and content engagement.
+</p>
+</div>
+<a href="https://github.com/TonyH98/social-media-frontend" target="_blank">
+<button className="button-link">Frontend Github</button>
+
+</a>
+<a href="https://github.com/TonyH98/social-media-backend" target="_blank">
+<button className="button-link">Backend Github</button>
+
+</a>
+</div>
     </div>
 
     </div>
