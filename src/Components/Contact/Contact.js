@@ -67,19 +67,19 @@ return(
 
   <div className='social-media-container'>
 
-  <a className="icon" href='https://www.linkedin.com/in/tonyqh/' target="_blank">
+  <a className="icon hover" href='https://www.linkedin.com/in/tonyqh/' target="_blank">
   <span class="icon-wrapper">
     <BsLinkedin size={30}/>
   </span>
 </a>
 
-  <a className="icon" href='https://github.com/TonyH98' target="_blank">
+  <a className="icon hover" href='https://github.com/TonyH98' target="_blank">
   <span class="icon-wrapper">
     <BsGithub size={30}/>
     </span>
     </a>
 
-  <a className="icon" href='/Resume.pdf' target="_blank">
+  <a className="icon hover" href='/Resume.pdf' target="_blank">
   <span class="icon-wrapper">
     <BsFiletypeDoc size={30}/>
     </span>

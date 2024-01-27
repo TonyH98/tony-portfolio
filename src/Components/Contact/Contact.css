@@ -9,10 +9,11 @@
 }
 
 .contact-label {
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-weight: bold;
-    margin-bottom: 5px;
     text-align: left;
+    gap: 10px;
 }
 
 .contact-input,

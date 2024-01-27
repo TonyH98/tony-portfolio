@@ -18,6 +18,9 @@ html{
   gap: 150px;
 }
 
+.hover:hover{
+  color: blue;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

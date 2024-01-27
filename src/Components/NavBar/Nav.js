@@ -12,7 +12,7 @@ return(
         <div>
         
         <div className="my-name">
-        <p><a href="#Home">Tony Hoang</a></p>
+        <p><a href="#Home" className="hover">Tony Hoang</a></p>
         </div>
      
 
@@ -22,11 +22,11 @@ return(
         
       
         
-    <p><a href="#projects">Projects</a></p>
+    <p><a href="#projects" className="hover">Projects</a></p>
 
-    <p><a href="#skills">Skills</a></p>
+    <p><a href="#skills" className="hover">Skills</a></p>
 
-    <p><a href="#contact">Contact</a></p>
+    <p><a href="#contact" className="hover">Contact</a></p>
 
 
     
