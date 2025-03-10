@@ -13,7 +13,7 @@ return(
 <div className='home-container'>
 
 <div className='introduction-container'>
-    <h1 className='hello'>Hello, I'M Tony Hoang</h1>
+    <h1 className='hello'>Hello, I'm Tony Hoang</h1>
     <h2 className='title'>A Full-Stack Developer</h2>
     <p className='about-me'>
     I am a skilled full-stack developer proficient in crafting dynamic web applications. With a passion for innovative solutions,
@@ -24,7 +24,7 @@ return(
     <p className='about-me'>When not immersed in the world of technology,
          I actively pursue my hobbies, maintaining an active running routine 
          and 
-      staying engrossed in the captivating narratives of Image Comic Books and manga.</p>
+      staying engrossed in the captivating narratives of comic books and mangas.</p>
 </div>
 
 </div>
