@@ -17,6 +17,17 @@
   line-height: 1.6;
 }
 
+.project_sum {
+  text-align: left;
+  margin-left: 10px;
+  display: grid;
+  grid-row-gap: 5px;
+}
+
+.skill_bold{
+  font-weight: bold;
+}
+
 @media(min-width: 993px){
   .projects-container {
     display: flex;
@@ -28,8 +39,9 @@
   }
   
   .project-content {
-    background-color: rgb(37, 36, 36);
-    color: white;
+    /* background-color: rgb(37, 36, 36); */
+    border: black solid 2px;
+    color: black;
     display: flex;
     flex-direction: column;
     margin-top: auto; /* Updated this line */
@@ -51,10 +63,12 @@
     
   }
   
-  .project_sum {
+  /* .project_sum {
     text-align: left;
     margin-left: 10px;
-  }
+    display: grid;
+    grid-column-gap: 5px;
+  } */
   
   
 

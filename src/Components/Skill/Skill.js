@@ -17,6 +17,9 @@ import {BsStripe} from "react-icons/bs"
 import {SiSocketdotio} from "react-icons/si"
 import {SiNpm} from "react-icons/si"
 import {TbBrandRedux} from "react-icons/tb"
+import { FaPython } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+
 function Skill(){
 
 return(
@@ -87,6 +90,15 @@ Redux
     <span style={{"fontSize": "20px"}}>Back-End: </span>
 
     <div className="skills-icon-container">
+    <div className="skill-icon">
+     {<FaJava size={50}/>}
+    <br/>
+
+    <span style={{"fontWeight": "bold"}}>
+
+    Java
+    </span>
+    </div>
 
     <div className="skill-icon">
     {<FaNode size={50}/>}
@@ -125,6 +137,16 @@ Redux
     </span>
     </div>
 
+    <div className="skill-icon">
+     {<FaPython size={50}/>}
+    <br/>
+
+    <span style={{"fontWeight": "bold"}}>
+
+    Python
+    </span>
+    </div>
+
     </div>
 
     </div>
@@ -149,7 +171,7 @@ Redux
     <div className="skill-icon">
      {<BsStripe size={50}/>}
         <br/>
-       <span style={{"fontWeight": "bold"}}>Socket.IO</span> 
+       <span style={{"fontWeight": "bold"}}>Stripe</span> 
     </div>
 
     <div className="skill-icon">

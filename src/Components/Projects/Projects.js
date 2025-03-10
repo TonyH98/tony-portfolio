@@ -21,12 +21,28 @@ return(
         <div class="project-content">
             <h2>Kick.It</h2>
         <p className="project_sum">
+            <div>
         Kickit is a comprehensive event 
         management platform, designed for effortless
          event planning, hosting, and participation.
           With real-time attendee messaging, streamlined
            registration, attendance tracking, and feedback 
            collection, Kickit is your go-to solution for successful events.
+
+            </div>
+
+
+            <div>
+            <div>
+                <span className="skill_bold"> Front-End Skills: </span> JavaScript, React.js, HTML, CSS
+            </div>
+
+            <div>
+                <span className="skill_bold">Back-End Skills</span> Node.js, Express.js, Postgresql, SQL
+            </div>
+
+           </div>
+        
         </p>
 
         <div className="link_container">
@@ -54,9 +70,24 @@ return(
     <div class="project-content">
         <h2>Collection Vault</h2>
         <p className="project_sum">
+            <div>
             The app specialized in selling books and comics, users can curate their favorite list, write reviews, 
             maintain a search history, make secure purchases, and conveniently track their purchase history, creating a 
             seamless and personalized shopping experience for book and comic enthusiasts.
+
+            </div>
+
+            <div>
+            <div>
+                <span className="skill_bold"> Front-End Skills: </span> JavaScript, React.js, HTML, CSS
+            </div>
+
+            <div>
+                <span className="skill_bold">Back-End Skills</span> Node.js, Express.js, Postgresql, SQL
+            </div>
+
+           </div>
+
         </p>
     <div className="link_container">
     <a href="https://github.com/TonyH98/capstone-project-frontend" target="_blank">
@@ -82,7 +113,23 @@ return(
 <div class="project-content">
     <h2>Hermes</h2>
 <p className="project_sum">
-This project is an emulation of Twitter/X's core functionalities, encompassing user registration, post creation, interactive replies, user following, mentions, notifications, and post tagging. It aims to provide users with a familiar yet feature-rich social media experience, fostering online connections and content engagement.
+    <div>
+This project is an emulation of Twitter/X's core functionalities,
+ encompassing user registration, post creation, interactive replies, user following, mentions, 
+ notifications, and post tagging. It aims to provide users 
+ with a familiar yet feature-rich social media experience, fostering online connections and content engagement.
+    </div>
+
+    <div>
+            <div>
+                <span className="skill_bold"> Front-End Skills: </span> JavaScript, React.js, HTML, CSS
+            </div>
+
+            <div>
+                <span className="skill_bold">Back-End Skills</span> Node.js, Express.js, Postgresql, SQL
+            </div>
+
+           </div>
 </p>
 
 <div className="link_container">

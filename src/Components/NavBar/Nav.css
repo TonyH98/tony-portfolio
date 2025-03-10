@@ -8,14 +8,9 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  border-bottom: black solid 1px;
+  border-bottom: black solid 2px;
 }
 @media (min-width: 993px){
-
-
-
-  
-  
   .nav-container {
     display: flex;
     justify-content: space-between; 
