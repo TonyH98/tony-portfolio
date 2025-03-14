@@ -11,22 +11,25 @@
 
 
 .introduction-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-left: 20px;
+    text-align: left;
+    margin-left: 10px;
 }
 
-.about-me {
+.about-me1 {
     font-family: Arial, sans-serif;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.7;
     margin-bottom: 20px;
+    width: 70%;
 }
 
 .Home-Page{
     margin-top: 100px;
     
+}
+
+.profile-container{
+    margin-right: 10px;
 }
 
 @media (min-width: 993px){

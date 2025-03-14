@@ -1,32 +1,41 @@
-.project-img{
-  width:100%;
-  height: 300px
+.project_images {
+  width: 100%;
+  max-width: 300px; /* Adjust this value as needed */
+  height: auto;
 }
 
-.button-link{
-  height: 40px;
-  border: none;
-  background-color: blue;
-  color: white;
-  border-radius: 5px;
-  width: 120px;
-  cursor: pointer;
-}
-.project p {
-
-  line-height: 1.6;
-}
-
-.project_sum {
+.project-img {
   text-align: left;
-  margin-left: 10px;
-  display: grid;
-  grid-row-gap: 5px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.skill_bold{
-  font-weight: bold;
+.project-container1 {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adds spacing between image and text */
 }
+
+.project-container1 div {
+  flex: 1; /* Ensures equal width for both elements */
+}
+
+.project_description {
+  flex: 1; /* Makes sure the description takes up the remaining space */
+  text-align: left;
+  line-height: 2;
+  width: 40%;
+}
+
+
+
+
+
+
+
+
 
 @media(min-width: 993px){
   .projects-container {
