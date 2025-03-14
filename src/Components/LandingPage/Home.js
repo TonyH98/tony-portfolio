@@ -14,7 +14,7 @@ return(
 
 <div className='introduction-container'>
     <h1 className='hello'>Hello, I'm Tony Hoang</h1>
-    <h2 className='title'>A Full-Stack Developer</h2>
+    <h3 className='title'>A Full-Stack Developer</h3>
     <p className='about-me1'>
     I am a skilled full-stack developer proficient in building dynamic web applications. With a passion for innovative solutions, 
     I am actively seeking opportunities to contribute my expertise and collaborate on exciting projects.

@@ -12,10 +12,21 @@ return(
             <h1>Personal Project</h1>
             <div className="project-img">
                 <div className="project-container1">
-                    <div>
-                        <h3 className="project_title">Kick.It</h3>
-                        <img src="kickit.png" className="project_images"/>
-                        
+                    <div className="project_section">
+                        <div>
+                            <h3 className="project_title">Kick.It</h3>
+                            <img src="kickit.png" className="project_images"/>
+
+                        </div>
+
+                        <div className="project_link_container">
+                        <a href="https://github.com/TonyH98/capstone-project-frontend" target="_blank">
+                            <button className="button-link">Frontend Github</button>
+                        </a>
+                        <a href="https://github.com/TonyH98/capstone-project-backend" target="_blank">
+                            <button className="button-link">Backend Github</button>
+                        </a>
+                        </div>
                     </div>
                     <p className="project_description">
                         Kickit is a comprehensive event management platform, 
@@ -25,9 +36,21 @@ return(
                 </p>
                 </div>
                 <div className="project-container1">
-                    <div>
+                    <div className="project_section">
+
+                        <div>
                         <h3 className="project_title">Collection Vault</h3>
                         <img src="collectionVault.png" className="project_images"/>
+
+                        </div>
+                        <div className="project_link_container">
+                        <a href="https://github.com/TonyH98/e-commerce-frontend" target="_blank">
+                            <button className="button-link">Frontend Github</button>
+                        </a>
+                        <a href="https://github.com/TonyH98/e-commerce-backend" target="_blank">
+                            <button className="button-link">Backend Github</button>
+                        </a>
+                        </div>
                     </div>
                     <p className="project_description">
                     The app specialized in selling books and comics, 
@@ -37,9 +60,19 @@ return(
                     </p>
                 </div>
                 <div className="project-container1">
-                    <div>
-                        <h3 className="project_title">Hermes</h3>
-                        <img src="SocialMedia.png" className="project_images"/>
+                    <div className="project_section">
+                        <div>
+                            <h3 className="project_title">Hermes</h3>
+                            <img src="SocialMedia.png" className="project_images"/>
+                        </div>
+                        <div className="project_link_container">
+                        <a href="https://github.com/TonyH98/social-media-frontend" target="_blank">
+                            <button className="button-link">Frontend Github</button>
+                        </a>
+                        <a href="https://github.com/TonyH98/social-media-backend" target="_blank">
+                            <button className="button-link">Backend Github</button>
+                        </a>
+                        </div>
                     </div>
                     <p className="project_description">
                 This project is an emulation of Twitter/X's core functionalities,
@@ -51,6 +84,7 @@ return(
             </div>
         </div>
     </div>
+
 
 )
 
