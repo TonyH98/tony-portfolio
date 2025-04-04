@@ -1,11 +1,20 @@
 
 
+#contact{
+    margin: 100px auto 0 auto; /* top margin + auto left/right */
+    text-align: left;
+    width: 50%; /* or any fixed width you prefer */
+
+}
+
+
+
 .contact-form {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif;
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 5px; */
 }
 
 .contact-label {
@@ -34,9 +43,15 @@
 .contact-button{
     height: 40px;
     border: none;
-    background-color: black;
-    color: white;
+    background-color: rgb(230, 229, 229);
+    color: black;
     border-radius: 5px;
+    transition: background-color .6s ease-in-out; 
+}
+
+.contact-button:hover{
+    cursor: pointer;
+    background-color: rgb(190, 190, 190);
 }
 
 .social-media-container{

@@ -39,6 +39,19 @@
     background-color: rgb(190, 190, 190);
 }
 
+.hidden-content {
+    opacity: 0; /* Make the content invisible */
+    transform: translateY(
+      20px
+    ); /* Move it down slightly for a smoother transition */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add a transition for a fade-in effect */
+  }
+  
+  .hidden-content.active {
+    opacity: 1; /* Make the content visible */
+    transform: translateY(0); /* Move it to its original position */
+  }
+
 
 @media(min-width: 993px){
   
