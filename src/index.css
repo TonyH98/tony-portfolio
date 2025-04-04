@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background-color: linear;
-  background: linear-gradient(to right, rgb(228, 230, 230), white);
+  background: white
   
 }
 

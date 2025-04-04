@@ -27,6 +27,7 @@ return(
 
     <h1>Technical Skills</h1>
 
+    <p>Technologies and tools I have used over the years.</p>
 
     <div className="skills-container">
     

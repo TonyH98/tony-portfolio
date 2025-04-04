@@ -1,7 +1,7 @@
 .nav-section {
   height: 80px;
   background-color: linear;
-  background: linear-gradient(to right, rgb(228, 230, 230), white);
+  background: white;
   color: #fff;
   position: fixed;
   top: 0;

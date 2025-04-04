@@ -1,35 +1,19 @@
 
 
-
-.profile-picture{
-    width: 200px;
-    height: 200px;
-    border: black solid 2px;
-}
-
-
-
-.introduction-container{
+.short_introduction {   
+    margin: 100px auto 0 auto; /* top margin + auto left/right */
     text-align: left;
-    margin-left: 10px;
+    width: 50%; /* or any fixed width you prefer */
 }
 
-.about-me1 {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    line-height: 1.7;
-    margin-bottom: 20px;
-    width: 70%;
-}
 
-.Home-Page{
-    margin-top: 100px;
+.about_paragraph{
     
+    line-height: 30px;
 }
 
-.profile-container{
-    margin-right: 10px;
-}
+
+
 
 @media (min-width: 993px){
     .Home-Page{
