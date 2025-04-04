@@ -39,21 +39,28 @@ function Projects(){
             {[
                 {
                     title: "Kick.IT",
-                    description: "Kickit is a comprehensive event management platform...",
+                    description: `Kickit is a comprehensive event management platform,designed for effortless event planning, hosting, 
+                    and participation. With real-time attendee messaging, streamlined registration, attendance tracking, and feedback collection, 
+                    Kickit is your go-to solution for successful events."
+                    img: "kickit.png`,
                     img: "kickit.png",
                     frontend: "https://github.com/TonyH98/capstone-project-frontend",
                     backend: "https://github.com/TonyH98/capstone-project-backend",
                 },
                 {
                     title: "Collection Vault",
-                    description: "The app specializes in selling books and comics...",
+                    description: `The app specialized in selling books and comics, 
+                    users can curate their favorite list, write reviews, 
+                    maintain a search history, make secure purchases, and conveniently track their purchase history, creating a seamless
+                    and personalized shopping experience for book and comic enthusiasts.",
+                    img: "collectionVault.png`,
                     img: "collectionVault.png",
                     frontend: "https://github.com/TonyH98/capstone-project-frontend",
                     backend: "https://github.com/TonyH98/capstone-project-backend",
                 },
                 {
                     title: "Hermes",
-                    description: "A social media platform...",
+                    description: "A social media app that replicate the features of Twitter/X",
                     img: "SocialMedia.png",
                     frontend: "https://github.com/TonyH98/capstone-project-frontend",
                     backend: "https://github.com/TonyH98/capstone-project-backend",
