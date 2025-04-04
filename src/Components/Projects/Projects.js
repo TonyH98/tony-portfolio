@@ -55,15 +55,15 @@ function Projects(){
                     and personalized shopping experience for book and comic enthusiasts.",
                     img: "collectionVault.png`,
                     img: "collectionVault.png",
-                    frontend: "https://github.com/TonyH98/capstone-project-frontend",
-                    backend: "https://github.com/TonyH98/capstone-project-backend",
+                    frontend: "https://github.com/TonyH98/e-commerce-frontend",
+                    backend: "https://github.com/TonyH98/e-commerce-backend",
                 },
                 {
                     title: "Hermes",
                     description: "A social media app that replicate the features of Twitter/X",
                     img: "SocialMedia.png",
-                    frontend: "https://github.com/TonyH98/capstone-project-frontend",
-                    backend: "https://github.com/TonyH98/capstone-project-backend",
+                    frontend: "https://github.com/TonyH98/social-media-frontend",
+                    backend: "https://github.com/TonyH98/social-media-backend",
                 },
             ].map((project, index) => (
                 <div
