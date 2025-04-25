@@ -10,6 +10,15 @@
   z-index: 1000;
 
 }
+
+section {
+  scroll-margin-top: var(--navbar-height); /* if you’ve set a CSS variable for it */
+}
+
+
+.sections{
+  margin-right: 15px;
+}
 @media (min-width: 993px){
   .nav-container {
     display: flex;

@@ -22,14 +22,11 @@ return(
         
       
         
-    <p><a href="#projects" className="hover">Projects</a></p>
+    <a href="#projects" className="hover">Projects</a>
 
-    <p><a href="#skills" className="hover">Skills</a></p>
+    <a href="#skills" className="hover">Skills</a>
 
-    <p><a href="#contact" className="hover">Contact</a></p>
-
-
-    
+    <a href="#contact" className="hover">Contact</a>
         </div>
 
         </div>

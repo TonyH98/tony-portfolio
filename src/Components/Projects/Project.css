@@ -52,6 +52,10 @@
     transform: translateY(0); /* Move it to its original position */
   }
 
+  .project-page {
+    scroll-margin-top: 100px; /* Adjust this value to match the height of your nav bar */
+}
+
 
 @media(min-width: 993px){
   

@@ -93,8 +93,8 @@ function Skill() {
 
   return (
     <div id="skills">
+   
   <h1>Technical Skills</h1>
-  <p>Technologies and tools I have used over the years.</p>
 
   <div className="skills-container">
     {skills.map((sk, index) => (
